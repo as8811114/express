@@ -14,10 +14,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // 設定基本路由
 app.get('/', (req, res) => {
-
-  console.log( process.env.SECRET)
   console.log("hi")
-  res.send('Hello, World!');
+  res.send('Hello, World! ');
 });
 
 // 啟動伺服器
